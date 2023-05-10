@@ -12,17 +12,4 @@ export class AppComponent {
   public title: string = 'HunterCommerceFrontEnd';
   public stuff: number = 10;
 
-  product1 = { name: "Ahmet", surname: "Karabacak" }
-  product2 = { name: "Ramazan", surname: "Yılmaz" }
-  product3 = { name: "Mehmet", surname: "Şarapçı" }
-  product4 = { name: "Yasin", surname: "Özdemir" }
-
-  products = [this.product1,this.product2,this.product3,this.product4]
-
- name() {
- console.log('Hello world')
-}
-  
-
-  //product:any ={a:500}
 }
